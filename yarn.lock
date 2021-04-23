@@ -2235,6 +2235,11 @@
   dependencies:
     source-map "^0.6.1"
 
+"@types/uuid@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.0.tgz#215c231dff736d5ba92410e6d602050cce7e273f"
+  integrity sha512-eQ9qFW/fhfGJF8WKHGEHZEyVWfZxrT+6CLIJGBcZPfxUh/+BnEj+UCGYMlr9qZuX/2AltsvwrGqp0LhEW8D0zQ==
+
 "@types/webpack-sources@*":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@types/webpack-sources/-/webpack-sources-2.1.0.tgz#8882b0bd62d1e0ce62f183d0d01b72e6e82e8c10"
@@ -2380,7 +2385,7 @@
     "@typescript-eslint/types" "4.22.0"
     eslint-visitor-keys "^2.0.0"
 
-"@visx/mock-data@^1.5.0":
+"@visx/mock-data@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@visx/mock-data/-/mock-data-1.7.0.tgz#b56e30604ab0e775ada741cb96e6c9c1eaaac56d"
   integrity sha512-v7DGro/4q382ReSWmPCKdRR1AtNUp9ERM129omMaTcf52i8RbSYNfMdxucMaEBIbATI905vYqQKA8S6xopPupQ==
@@ -4895,10 +4900,10 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-data-visualisation-platform@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/data-visualisation-platform/-/data-visualisation-platform-2.0.0.tgz#2bba9de6a09f9aeaec3e15c01dccc137821c56df"
-  integrity sha512-M4qxsr8PpuJuWEdO6IWuNv2/fO6Z1+5vjA0wT0ORv79IPjNw5QI3itfrU3uNkXicZpmUX3oTjtRa7RXvyzv49g==
+data-visualisation-platform@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/data-visualisation-platform/-/data-visualisation-platform-3.0.0.tgz#5bddd9b9ca7875dcaf1f6ee2cb7eb2da28a784f1"
+  integrity sha512-6c78Psrx3JQf/1xPaWp++xBrTW1TcGafuwckV7umCx5o+57h1gBBOl7W5BSzkCJHRAX2RH9/BcwovdobpbNsGg==
   dependencies:
     "@apollo/client" "^3.3.6"
     "@reduxjs/toolkit" "^1.5.1"
@@ -4910,7 +4915,8 @@ data-visualisation-platform@2.0.0:
     "@types/react-dom" "^16.9.8"
     "@types/react-plotly.js" "^2.2.4"
     "@types/react-router-dom" "^5.1.7"
-    "@visx/mock-data" "^1.5.0"
+    "@types/uuid" "^8.3.0"
+    "@visx/mock-data" "^1.7.0"
     autoprefixer "^9"
     classnames "^2.2.6"
     date-fns "^2.16.1"
@@ -4927,6 +4933,7 @@ data-visualisation-platform@2.0.0:
     react-scripts "^4.0.3"
     react-select "^3.1.1"
     typescript "^4.2.4"
+    uuid "^8.3.2"
     web-vitals "^0.2.4"
 
 date-fns@^2.16.1:
@@ -14184,7 +14191,7 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuid@^8.3.0:
+uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
